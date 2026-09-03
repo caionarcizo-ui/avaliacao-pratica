@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vida em Marte - Guia de Sobrevivência</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida em Marte - A Nova Fronteira</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Exploração de Marte</h1>
-    <p>O futuro da humanidade no Red Planet</p>
-  </header>
+    <header>
+        <h1>Exploração e Colonização de Marte</h1>
+        <nav>
+            <ul>
+                <li><a href="#visaogeral">Visão Geral</a></li>
+                <li><a href="#habitacao">Habitação</a></li>
+                <li><a href="#alimentacao">Alimentação</a></li>
+                <li><a href="#vestuario">Vestuário</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav>
-    <button onclick="scrollToSection('visao-geral')">Visão Geral</button>
-    <button onclick="scrollToSection('habitacao')">Habitação</button>
-    <button onclick="scrollToSection('alimentacao')">Alimentação</button>
-    <button onclick="scrollToSection('vestuario')">Vestuário</button>
-  </nav>
+    <main>
+        <!-- Visão Geral -->
+        <section id="visaogeral" class="card">
+            <h2>Visão Geral do Planeta</h2>
+            <div class="content-box">
+                <p>Marte é o quarto planeta a partir do Sol e possui uma atmosfera fina composta predominantemente por dióxido de carbono. Sua paisagem é marcada por desertos gelados, vulcões extintos e cânions profundos.</p>
+                <ul>
+                    <li><strong>Temperatura Média:</strong> aproximadamente -60 °C</li>
+                    <li><strong>Atmosfera:</strong> 95% Dióxido de Carbono</li>
+                    <li><strong>Gravidade:</strong> ~38% da gravidade terrestre</li>
+                </ul>
+            </div>
+        </section>
 
-  <main class="container">
-    <section id="visao-geral" class="card">
-      <h2>Visão Geral do Planeta</h2>
-      <p>Marte é um mundo desértico e frio. Suas temperaturas médias giram em torno de -60°C, e a atmosfera é composta por 95% de dióxido de carbono. A paisagem conta com vales profundos, vulcões gigantescos e tempestades de poeira globais.</p>
-    </section>
+        <!-- Habitação -->
+        <section id="habitacao" class="card">
+            <h2>Habitação (Casas)</h2>
+            <div class="content-box">
+                <p>As estruturas em Marte precisam suportar a pressão interna e proteger os colonos contra a radiação solar/cósmica e variações extremas de temperatura.</p>
+                <ul>
+                    <li><strong>Módulos Subterrâneos:</strong> Construídos sob o regolito marciano para isolamento térmico e de radiação.</li>
+                    <li><strong>Impressão 3D:</strong> Estruturas de superfície feitas com basaltos e poeira local.</li>
+                    <li><strong>Habitáculos Infláveis:</strong> Revestidos com camadas protetoras de água ou polímeros reforçados.</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="habitacao" class="card">
-      <h2>Habitação (Casas)</h2>
-      <p>Para proteger os colonos contra a radiação cósmica e as baixas temperaturas, as estruturas serão construídas abaixo da superfície ou cobertas por regolito marcial imerso em impressão 3D. Módulos infláveis com camadas espessas de isolamento térmico servem como habitação principal.</p>
-    </section>
+        <!-- Alimentação -->
+        <section id="alimentacao" class="card">
+            <h2>Alimentação (Comida)</h2>
+            <div class="content-box">
+                <p>A produção de alimentos dependera do uso eficiente de recursos fechados, sem solo fértil natural disponível.</p>
+                <ul>
+                    <li><strong>Estufas Hidropônicas/Aeropônicas:</strong> Cultivo de vegetais de alto teor nutritivo (batata, espinafre, soja) com iluminação LED.</li>
+                    <li><strong>Proteína Alternativa:</strong> Produção de proteínas via agricultura celular e cultivo de microalgas (ex: Espirulina).</li>
+                    <li><strong>Reciclagem de Nutrientes:</strong> Sistemas de suporte de vida em circuito fechado para reaproveitamento de água e matéria orgânica.</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="alimentacao" class="card">
-      <h2>Alimentação (Comida)</h2>
-      <p>A produção agrícola depende de estufas seladas e automatizadas. Cultivos como batata, legumes e algas serão priorizados via hidroponia e aeroponia, além da síntese de proteínas em laboratório a partir de culturas celulares.</p>
-    </section>
+        <!-- Vestuário -->
+        <section id="vestuario" class="card">
+            <h2>Vestuário (Roupas)</h2>
+            <div class="content-box">
+                <p>O vestuário divide-se rigidamente entre o uso dentro dos habitats pressurizados e o uso externo na superfície do planeta.</p>
+                <ul>
+                    <li><strong>Trajes Internos:</strong> Roupas leves, respiráveis, com tecidos antibacterianos e compressivos para mitigar a perda de densidade óssea e muscular na baixa gravidade.</li>
+                    <li><strong>Trajes EVA (Atividade Extravehicular):</strong> Trajes pressurizados com proteção térmica multicamada, escudos contra radiação e sistemas autônomos de oxigênio.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-    <section id="vestuario" class="card">
-      <h2>Vestuário (Roupas)</h2>
-      <p>Trajes de Mobilidade Extraveicular (EVA) contam com isolamento avançado, regulagem de pressão e camada refletora de radiação para saídas ao ar livre. Para o interior das bases, roupas leves de algodão sintético com monitoramento biométrico garantem conforto.</p>
-    </section>
-  </main>
+    <footer>
+        <p>&copy; 2026 Projeto Colonização de Marte - Todos os direitos reservados.</p>
+    </footer>
 
-  <footer>
-    <p>&copy; 2026 Projeto Colonização de Marte</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
