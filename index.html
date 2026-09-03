@@ -3,82 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vida em Marte - A Nova Fronteira</title>
+    <title>Colonizando Marte - Guia Oficial</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Header / Navbar -->
     <header>
-        <h1>Exploração e Colonização de Marte</h1>
+        <div class="logo">Missão <span>Marte</span></div>
         <nav>
             <ul>
-                <li><a href="#visaogeral">Visão Geral</a></li>
-                <li><a href="#habitacao">Habitação</a></li>
-                <li><a href="#alimentacao">Alimentação</a></li>
-                <li><a href="#vestuario">Vestuário</a></li>
+                <li><a href="#planeta">O Planeta</a></li>
+                <li><a href="#arquitetura">Arquitetura</a></li>
+                <li><a href="#alimentos">Alimentação</a></li>
+                <li><a href="#trajes">Trajes</a></li>
+                <li><a href="#calculadora">Gravidade</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <!-- Visão Geral -->
-        <section id="visaogeral" class="card">
-            <h2>Visão Geral do Planeta</h2>
-            <div class="content-box">
-                <img src="image_agent_tag_13159448331482785798" alt="Superfície rochosa e avermelhada do planeta Marte" class="section-img">
-                <p>Marte é o quarto planeta a partir do Sol e possui uma atmosfera fina composta predominantemente por dióxido de carbono. Sua paisagem é marcada por desertos gelados, vulcões extintos e cânions profundos.</p>
-                <ul>
-                    <li><strong>Temperatura Média:</strong> aproximadamente -60 °C</li>
-                    <li><strong>Atmosfera:</strong> 95% Dióxido de Carbono</li>
-                    <li><strong>Gravidade:</strong> ~38% da gravidade terrestre</li>
-                </ul>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>A Nova Fronteira da Humanidade</h1>
+            <p>Descubra as diretrizes técnicas e o design de sobrevivência para a colonização do Planeta Vermelho.</p>
+            <a href="#planeta" class="btn">Explorar Diretrizes</a>
+        </div>
+    </section>
 
-        <!-- Habitação -->
-        <section id="habitacao" class="card">
-            <h2>Habitação (Casas)</h2>
-            <div class="content-box">
-                <img src="image_agent_tag_13159448331482786729" alt="Domo geodésico de habitação simulada na superfície de Marte" class="section-img">
-                <p>As estruturas em Marte precisam suportar a pressão interna e proteger os colonos contra a radiação solar/cósmica e variações extremas de temperatura.</p>
-                <ul>
-                    <li><strong>Módulos Subterrâneos:</strong> Construídos sob o regolito marciano para isolamento térmico e de radiação.</li>
-                    <li><strong>Impressão 3D:</strong> Estruturas de superfície feitas com basaltos e poeira local.</li>
-                    <li><strong>Habitáculos Infláveis:</strong> Revestidos com camadas protetoras de água ou polímeros reforçados.</li>
-                </ul>
+    <!-- O Planeta -->
+    <section id="planeta" class="section">
+        <h2>O Planeta Vermelho</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://unsplash.com" alt="Marte">
+                <h3>Clima Extremo</h3>
+                <p>Marte é um deserto gelado com temperatura média de -62°C. A atmosfera é rarefeita, composta por 95% de dióxido de carbono, exigindo isolamento térmico absoluto.</p>
             </div>
-        </section>
-
-        <!-- Alimentação -->
-        <section id="alimentacao" class="card">
-            <h2>Alimentação (Comida)</h2>
-            <div class="content-box">
-                <img src="image_agent_tag_13159448331482787660" alt="Estufa hidropônica para cultivo de vegetais em ambiente controlado" class="section-img">
-                <p>A produção de alimentos dependerá do uso eficiente de recursos fechados, sem solo fértil natural disponível.</p>
-                <ul>
-                    <li><strong>Estufas Hidropônicas/Aeropônicas:</strong> Cultivo de vegetais de alto teor nutritivo (batata, espinafre, soja) com iluminação LED.</li>
-                    <li><strong>Proteína Alternativa:</strong> Produção de proteínas via agricultura celular e cultivo de microalgas (ex: Espirulina).</li>
-                    <li><strong>Reciclagem de Nutrientes:</strong> Sistemas de suporte de vida em circuito fechado para reaproveitamento de água e matéria orgânica.</li>
-                </ul>
+            <div class="card">
+                <img src="https://unsplash.com" alt="Paisagem de Marte">
+                <h3>Paisagem & Solo</h3>
+                <p>Coberto por regolito (poeira tóxica rica em percloratos) e formações massivas como o Olympus Mons. Tempestades de poeira globais podem bloquear o Sol por meses.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Vestuário -->
-        <section id="vestuario" class="card">
-            <h2>Vestuário (Roupas)</h2>
-            <div class="content-box">
-                <img src="image_agent_tag_13159448331482784495" alt="Traje espacial pressurizado para atividades extraveiculares" class="section-img">
-                <p>O vestuário divide-se rigidamente entre o uso dentro dos habitats pressurizados e o uso externo na superfície do planeta.</p>
-                <ul>
-                    <li><strong>Trajes Internos:</strong> Roupas leves, respiráveis, com tecidos antibacterianos e compressivos para mitigar a perda de densidade óssea e muscular na baixa gravidade.</li>
-                    <li><strong>Trajes EVA (Atividade Extravehicular):</strong> Trajes pressurizados com proteção térmica multicamada, escudos contra radiação e sistemas autônomos de oxigênio.</li>
-                </ul>
+    <!-- Arquitetura -->
+    <section id="arquitetura" class="section bg-dark">
+        <h2>Arquitetura Marciana</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://unsplash.com" alt="Domo bio-impresso">
+                <h3>Domos Geodésicos de Regolito</h3>
+                <p>As estruturas externas serão impressas em 3D utilizando o próprio solo marciano (regolito) misturado com polímeros, criando uma barreira de metros de espessura contra radiação cósmica.</p>
             </div>
-        </section>
-    </main>
+            <div class="card">
+                <img src="https://unsplash.com" alt="Túneis subterrâneos">
+                <h3>Habitações Subterrâneas</h3>
+                <p>Para proteção total contra micrometeoritos e variações severas de temperatura, os colonos habitarão tubos de lava naturais selados e pressurizados termicamente a 1 atm.</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Alimentos -->
+    <section id="alimentos" class="section">
+        <h2>Sustentabilidade Alimentar</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Fazendas Hidropônicas e Aeropônicas</h3>
+                <p>Sem solo fértil artificial, plantas como batata, microverdes e soja serão cultivadas em água ou névoa rica em nutrientes, iluminadas por LEDs de espectro otimizado dentro de bio-domos automatizados.</p>
+            </div>
+            <div class="card">
+                <h3>Proteínas de Laboratório</h3>
+                <p>A carne cultivada em biorreatores celulares e a produção em massa de insetos e algas (como a spirulina) garantirão o suprimento completo de aminoácidos sem a necessidade de pecuária tradicional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trajes -->
+    <section id="trajes" class="section bg-dark">
+        <h2>Trajes e Vestuário</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Ambiente Externo (Trajes EVA)</h3>
+                <p>Armaduras pressurizadas com múltiplas camadas de Kevlar e polímeros refletores de radiação. Possuem sistemas fechados de oxigênio, aquecimento dinâmico e visores com HUD integrado.</p>
+            </div>
+            <div class="card">
+                <h3>Ambiente Interno (Smart-Wear)</h3>
+                <p>Dentro dos domos, roupas leves de bio-fibra antimicrobial de alta ventilação. Elas incluem sensores biométricos costurados para monitorar os efeitos da baixa gravidade nos músculos e ossos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora de Peso -->
+    <section id="calculadora" class="section">
+        <h2>Efeito da Gravidade: Seu Peso em Marte</h2>
+        <p>A gravidade em Marte é de apenas <strong>3.71 m/s²</strong>, cerca de <strong>38%</strong> da gravidade da Terra. Descubra quanto você pesaria lá!</p>
+        <div class="calc-container">
+            <input type="number" id="pesoTerra" placeholder="Digite seu peso na Terra (kg)">
+            <button onclick="calcularPeso()">Calcular Peso em Marte</button>
+            <div id="resultado" class="result"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Projeto Colonização de Marte - Todos os direitos reservados.</p>
+        <p>&copy; 2026 Missão Marte. Desenvolvido para futuros colonos.</p>
     </footer>
 
     <script src="script.js"></script>
